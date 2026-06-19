@@ -38,24 +38,24 @@ const operatingPoints = [
 
 const team = [
   {
-    name: "AI Strategy Lead",
-    role: "Maps business workflows into clear AI automation opportunities.",
-    image: "/images/team/ai-strategy-lead.webp",
+    name: "Aanya Mehta",
+    role: "Designs and builds custom AI agents for lead capture, customer support, booking workflows, internal knowledge assistants, and business automation.",
+    image: "/images/team/aanya-mehta-ai-agent-architect.webp",
   },
   {
-    name: "Automation Engineer",
-    role: "Builds agents, workflows, dashboards, integrations, and connected backend tools.",
-    image: "/images/team/automation-engineer.webp",
+    name: "Daniel Lim",
+    role: "Connects websites, forms, CRMs, WhatsApp, Telegram, admin panels, and backend workflows so client operations run faster with fewer manual tasks.",
+    image: "/images/team/daniel-lim-automation-specialist.webp",
   },
   {
-    name: "Experience Designer",
-    role: "Shapes premium web interfaces, brand presentation, and conversion-focused user journeys.",
-    image: "/images/team/experience-designer.webp",
+    name: "Mei Lin Zhang",
+    role: "Leads SEO, content strategy, blog planning, conversion funnels, analytics, and campaign optimization for AI Invention client growth systems.",
+    image: "/images/team/mei-lin-zhang-marketing-seo-lead.webp",
   },
   {
-    name: "Growth Optimizer",
-    role: "Improves SEO, campaign performance, lead quality, and post-launch conversion.",
-    image: "/images/team/growth-optimizer.webp",
+    name: "Rayyan Hakim",
+    role: "Builds modern landing pages, responsive websites, admin dashboards, customer portals, and polished user interfaces for AI-powered businesses.",
+    image: "/images/team/rayyan-hakim-web-developer-designer.webp",
   },
 ];
 
