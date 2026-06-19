@@ -17,7 +17,7 @@ services:
       - "traefik.http.routers.ai-invention-main.rule=Host(`aiinvention.tech`) || Host(`www.aiinvention.tech`)"
       - "traefik.http.routers.ai-invention-main.entrypoints=websecure"
       - "traefik.http.routers.ai-invention-main.tls.certresolver=letsencrypt"
-      - "traefik.http.services.ai-invention-main.loadbalancer.server.port=3000"
+      - "traefik.http.services.ai-invention-main.loadbalancer.server.port=3030"
       - "traefik.http.routers.ai-invention-admin.rule=Host(`admin.aiinvention.tech`) || Host(`customer.aiinvention.tech`)"
       - "traefik.http.routers.ai-invention-admin.entrypoints=websecure"
       - "traefik.http.routers.ai-invention-admin.tls.certresolver=letsencrypt"
