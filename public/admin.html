@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Invention Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="admin-body">
+    <main class="admin-shell">
+      <section class="admin-card">
+        <div class="section-heading compact">
+          <p class="eyebrow">ADMIN ACCESS</p>
+          <h1>Manage website content and incoming leads.</h1>
+        </div>
+        <form id="admin-login" class="inline-form">
+          <label>
+            Admin Password
+            <input type="password" name="password" required />
+          </label>
+          <button class="button button-primary" type="submit">Unlock Dashboard</button>
+        </form>
+        <p class="form-status" id="admin-status" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="admin-grid hidden" id="admin-dashboard">
+        <article class="admin-card">
+          <h2>Hero Content</h2>
+          <form id="content-form" class="admin-form">
+            <label>
+              Hero Eyebrow
+              <input type="text" name="heroEyebrow" required />
+            </label>
+            <label>
+              Hero Title
+              <textarea name="heroTitle" rows="3" required></textarea>
+            </label>
+            <label>
+              Hero Description
+              <textarea name="heroDescription" rows="4" required></textarea>
+            </label>
+            <label>
+              About Headline
+              <input type="text" name="aboutHeadline" required />
+            </label>
+            <label>
+              About Body
+              <textarea name="aboutBody" rows="5" required></textarea>
+            </label>
+            <button class="button button-primary" type="submit">Save Content</button>
+            <p class="form-status" id="content-status" role="status" aria-live="polite"></p>
+          </form>
+        </article>
+
+        <article class="admin-card">
+          <div class="admin-heading">
+            <h2>Contact Submissions</h2>
+            <button class="button button-secondary" id="refresh-submissions" type="button">Refresh</button>
+          </div>
+          <div class="submission-list" id="submission-list"></div>
+        </article>
+      </section>
+    </main>
+
+    <script src="/admin.js" defer></script>
+  </body>
+</html>

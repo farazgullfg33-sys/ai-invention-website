@@ -1,0 +1,11 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Monthly maintenance monitoring</title>
+  <desc id="desc">Minimal line icon showing monitoring pulse and recurring maintenance cycle.</desc>
+  <path d="M96 36C87.8 27.4 76.2 22 63.4 22C38.8 22 18.8 42 18.8 66.6C18.8 91.2 38.8 111.2 63.4 111.2C85.8 111.2 104.4 94.7 107.6 73.2" stroke="#0F172A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M96 20V36H112" stroke="#0891B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 70H48L56 52L68 84L78 62H96" stroke="#0D9488" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="22" r="4" fill="#0891B2"/>
+  <circle cx="107" cy="73" r="4" fill="#0D9488"/>
+  <path d="M44 28L44 18" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+  <path d="M38 18H50" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">VPS server deployment</title>
+  <desc id="desc">Minimal line icon showing private server deployment with connected AI nodes.</desc>
+  <rect x="30" y="24" width="68" height="80" rx="14" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M42 44H86" stroke="#0F172A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M42 64H86" stroke="#0F172A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M42 84H86" stroke="#0F172A" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="47" cy="44" r="3.5" fill="#0891B2"/>
+  <circle cx="47" cy="64" r="3.5" fill="#0D9488"/>
+  <circle cx="47" cy="84" r="3.5" fill="#0891B2"/>
+  <path d="M64 16V5" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+  <path d="M16 64H5" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+  <path d="M112 64H123" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="64" cy="5" r="4" fill="#0891B2"/>
+  <circle cx="5" cy="64" r="4" fill="#0D9488"/>
+  <circle cx="123" cy="64" r="4" fill="#0891B2"/>
+  <path d="M64 104V116" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+  <path d="M56 112L64 120L72 112" stroke="#0D9488" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

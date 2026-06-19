@@ -1,0 +1,11 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Security client control</title>
+  <desc id="desc">Minimal line icon showing a security shield with client control sliders.</desc>
+  <path d="M64 14L104 28V58C104 84.4 88 104.5 64 116C40 104.5 24 84.4 24 58V28L64 14Z" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M46 52H82" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+  <path d="M46 72H82" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="58" cy="52" r="6" fill="#FFFFFF" stroke="#0891B2" stroke-width="4"/>
+  <circle cx="72" cy="72" r="6" fill="#FFFFFF" stroke="#0D9488" stroke-width="4"/>
+  <path d="M51 91L61 101L80 84" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M64 14V30" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+</svg>

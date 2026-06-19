@@ -1,0 +1,61 @@
+<svg width="768" height="512" viewBox="0 0 768 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI Invention service icon set</title>
+  <desc id="desc">A grid of six minimal AI Invention service line icons.</desc>
+  <defs>
+    <symbol id="vps" viewBox="0 0 128 128">
+      <rect x="30" y="24" width="68" height="80" rx="14" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M42 44H86M42 64H86M42 84H86" stroke="#0F172A" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="47" cy="44" r="3.5" fill="#0891B2"/><circle cx="47" cy="64" r="3.5" fill="#0D9488"/><circle cx="47" cy="84" r="3.5" fill="#0891B2"/>
+      <path d="M64 16V5M16 64H5M112 64H123" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+      <path d="M16 64H5M64 104V116" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="64" cy="5" r="4" fill="#0891B2"/><circle cx="5" cy="64" r="4" fill="#0D9488"/><circle cx="123" cy="64" r="4" fill="#0891B2"/>
+      <path d="M56 112L64 120L72 112" stroke="#0D9488" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="docs" viewBox="0 0 128 128">
+      <path d="M34 20H76L94 38V108H34V20Z" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M76 20V38H94M24 32H16V116H76V108" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M47 56H80M47 88H65" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+      <path d="M47 72H73" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="99" cy="82" r="12" stroke="#0D9488" stroke-width="4"/>
+      <path d="M87 82H76M99 70V60" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="99" cy="58" r="4" fill="#0891B2"/>
+    </symbol>
+    <symbol id="telegram" viewBox="0 0 128 128">
+      <path d="M24 34C24 24.1 32.1 16 42 16H86C95.9 16 104 24.1 104 34V72C104 81.9 95.9 90 86 90H58L38 108V90H42C32.1 90 24 81.9 24 72V34Z" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M44 54L86 36L74 78L62 62L44 54Z" stroke="#0891B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M62 62L86 36M40 72H52" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="96" cy="23" r="5" fill="#0D9488"/>
+    </symbol>
+    <symbol id="website" viewBox="0 0 128 128">
+      <rect x="18" y="24" width="92" height="76" rx="14" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M18 44H110" stroke="#0F172A" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="34" cy="34" r="3.5" fill="#0891B2"/><circle cx="48" cy="34" r="3.5" fill="#0D9488"/>
+      <path d="M36 62H62" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+      <path d="M36 78H52M82 86V112M70 112H94" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+      <rect x="72" y="58" width="20" height="20" rx="4" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M92 58L102 48M98 48H104V54" stroke="#0891B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="maintenance" viewBox="0 0 128 128">
+      <path d="M96 36C87.8 27.4 76.2 22 63.4 22C38.8 22 18.8 42 18.8 66.6C18.8 91.2 38.8 111.2 63.4 111.2C85.8 111.2 104.4 94.7 107.6 73.2" stroke="#0F172A" stroke-width="4" stroke-linecap="round"/>
+      <path d="M96 20V36H112" stroke="#0891B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M32 70H48L56 52L68 84L78 62H96" stroke="#0D9488" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="64" cy="22" r="4" fill="#0891B2"/><circle cx="107" cy="73" r="4" fill="#0D9488"/>
+      <path d="M44 28L44 18M38 18H50" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="security" viewBox="0 0 128 128">
+      <path d="M64 14L104 28V58C104 84.4 88 104.5 64 116C40 104.5 24 84.4 24 58V28L64 14Z" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M46 52H82" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+      <path d="M46 72H82" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="58" cy="52" r="6" fill="#FFFFFF" stroke="#0891B2" stroke-width="4"/>
+      <circle cx="72" cy="72" r="6" fill="#FFFFFF" stroke="#0D9488" stroke-width="4"/>
+      <path d="M51 91L61 101L80 84" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M64 14V30" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+  <use href="#vps" x="64" y="48" width="128" height="128"/>
+  <use href="#docs" x="320" y="48" width="128" height="128"/>
+  <use href="#telegram" x="576" y="48" width="128" height="128"/>
+  <use href="#website" x="64" y="304" width="128" height="128"/>
+  <use href="#maintenance" x="320" y="304" width="128" height="128"/>
+  <use href="#security" x="576" y="304" width="128" height="128"/>
+</svg>

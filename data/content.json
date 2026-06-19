@@ -1,0 +1,255 @@
+{
+  "site": {
+    "name": "AI Invention",
+    "tagline": "Engineering growth systems for ambitious brands."
+  },
+  "hero": {
+    "eyebrow": "AI-FIRST AGENCY",
+    "title": "Turn ambitious ideas into AI products, websites, and growth systems that ship.",
+    "description": "AI Invention helps modern teams launch revenue-ready digital experiences with custom AI solutions, conversion-focused websites, streamlined automations, and measurable growth campaigns.",
+    "primaryCta": "Book a Strategy Call",
+    "secondaryCta": "Explore Services",
+    "statLine": "Serving 10+ countries across North America, Europe, the Middle East, and Asia.",
+    "metrics": [
+      {
+        "value": "42%",
+        "label": "Average workflow time saved"
+      },
+      {
+        "value": "3.1x",
+        "label": "Typical lead growth lift"
+      },
+      {
+        "value": "12 wks",
+        "label": "Average delivery timeline"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "ai-solutions",
+      "name": "AI Solutions",
+      "icon": "AI",
+      "tagline": "Tailored assistants, copilots, and knowledge workflows built around your business.",
+      "summary": "Tailored assistants, knowledge bases, and AI workflows aligned to your operations.",
+      "details": "We design practical AI systems that reduce manual load, accelerate response times, and make internal knowledge easy to use.",
+      "delivers": [
+        "Custom GPT-style assistants for internal teams and customers",
+        "Knowledge retrieval systems that answer from your SOPs and documents",
+        "Automated workflows that trigger actions after AI decisions"
+      ],
+      "howItWorks": [
+        "We map your workflows, data sources, and business rules first.",
+        "We prototype the AI logic, prompts, and tools against real use cases.",
+        "We deploy with testing, handoff documentation, and analytics."
+      ],
+      "whoItsFor": [
+        "Teams buried in repetitive questions or manual triage",
+        "Founders who need AI features inside an existing product or offer",
+        "Operations teams that want accuracy and speed without hiring sprawl"
+      ],
+      "relatedInsights": [
+        {
+          "title": "When to build a custom AI workflow instead of buying another SaaS tool",
+          "summary": "A practical framework for deciding between packaged AI tools and custom systems."
+        },
+        {
+          "title": "Why internal knowledge bases fail without retrieval design",
+          "summary": "The missing architecture decisions behind accurate, trustworthy AI answers."
+        }
+      ],
+      "relatedProductSlugs": [
+        "fiverr-seller-mcp",
+        "ai-lead-gen-pipeline",
+        "ai-content-writing-tool"
+      ]
+    },
+    {
+      "slug": "website-development",
+      "name": "Website Development",
+      "icon": "WEB",
+      "tagline": "High-performance websites built to convert, scale, and support your sales process.",
+      "summary": "High-performance websites built to convert, scale, and support your sales process.",
+      "details": "From positioning to launch, we create polished web experiences with clear structure, fast load times, and CMS-friendly management.",
+      "delivers": [
+        "Conversion-focused landing pages and multi-page marketing sites",
+        "Responsive front-end systems tuned for speed and clarity",
+        "Content structures that make ongoing updates easier for your team"
+      ],
+      "howItWorks": [
+        "We clarify your offer, audience, and conversion goals before design.",
+        "We build the visual system, page hierarchy, and responsive front end.",
+        "We connect forms, content controls, analytics, and launch support."
+      ],
+      "whoItsFor": [
+        "Agencies and startups that need a premium digital storefront",
+        "Service businesses whose current site is outdated or hard to update",
+        "Teams launching new offers and needing fast go-to-market pages"
+      ],
+      "relatedInsights": [
+        {
+          "title": "What high-converting service websites do differently",
+          "summary": "The page structure, proof placement, and copy choices that consistently improve conversion."
+        },
+        {
+          "title": "Why design quality alone does not create pipeline",
+          "summary": "How positioning, speed, and information hierarchy influence results."
+        }
+      ],
+      "relatedProductSlugs": [
+        "fiverr-seller-mcp-premium",
+        "ai-chatbot-builder",
+        "social-media-auto-poster"
+      ]
+    },
+    {
+      "slug": "automation",
+      "name": "Automation",
+      "icon": "OPS",
+      "tagline": "Connected systems that remove repetitive work across your sales and delivery stack.",
+      "summary": "Connected systems that remove repetitive work across your sales and delivery stack.",
+      "details": "We map bottlenecks, automate the handoffs, and give your team reliable processes instead of brittle one-off hacks.",
+      "delivers": [
+        "Automated lead routing, enrichment, and follow-up flows",
+        "Back-office workflows for fulfillment, onboarding, and reporting",
+        "Cross-tool integrations that reduce copy-paste operations"
+      ],
+      "howItWorks": [
+        "We audit the process, systems, and failure points with your team.",
+        "We design the automation logic, edge cases, and ownership rules.",
+        "We deploy, document, and monitor the workflow in production."
+      ],
+      "whoItsFor": [
+        "Small teams scaling faster than their manual process can handle",
+        "Founders who need cleaner handoffs between sales and delivery",
+        "Operations leaders reducing hidden time loss in day-to-day execution"
+      ],
+      "relatedInsights": [
+        {
+          "title": "The hidden cost of manual lead qualification",
+          "summary": "Where time actually disappears and how automation changes response speed."
+        },
+        {
+          "title": "How to make automations resilient instead of fragile",
+          "summary": "A checklist for workflows that survive growth, staff changes, and tool updates."
+        }
+      ],
+      "relatedProductSlugs": [
+        "ai-lead-gen-pipeline",
+        "web-scraping-automation",
+        "social-media-auto-poster"
+      ]
+    },
+    {
+      "slug": "digital-marketing",
+      "name": "Digital Marketing",
+      "icon": "GROW",
+      "tagline": "Campaigns, funnels, and reporting that turn attention into qualified demand.",
+      "summary": "Campaigns, funnels, and reporting that turn attention into qualified demand.",
+      "details": "We combine messaging, landing pages, analytics, and experimentation to move the right metrics with less guesswork.",
+      "delivers": [
+        "Offer positioning, funnel messaging, and launch campaigns",
+        "Paid and organic growth systems backed by clean reporting",
+        "Experimentation plans that improve lead quality over time"
+      ],
+      "howItWorks": [
+        "We identify the offer, audience, and current conversion gaps.",
+        "We build the funnel assets, tracking, and campaign structure.",
+        "We optimize based on lead quality, CAC, and close-rate data."
+      ],
+      "whoItsFor": [
+        "Businesses with demand but inconsistent conversion into pipeline",
+        "Founders launching a new offer that needs traction quickly",
+        "Teams that need marketing tied directly to business outcomes"
+      ],
+      "relatedInsights": [
+        {
+          "title": "Why campaign performance improves when ops and marketing are connected",
+          "summary": "The advantage of pairing automation and attribution with top-of-funnel work."
+        },
+        {
+          "title": "How to evaluate a funnel beyond clicks and impressions",
+          "summary": "The downstream metrics that matter when revenue is the goal."
+        }
+      ],
+      "relatedProductSlugs": [
+        "ai-content-writing-tool",
+        "social-media-auto-poster",
+        "ai-chatbot-builder"
+      ]
+    }
+  ],
+  "trustBar": {
+    "title": "Trusted by growth teams, founders, and service businesses worldwide.",
+    "clients": [
+      "Northstar Labs",
+      "Atlas Commerce",
+      "Signal Forge",
+      "Nova Freight",
+      "BrightLayer",
+      "Peak Reach"
+    ]
+  },
+  "framework": {
+    "title": "The Invention Framework",
+    "description": "A branded delivery flow that keeps strategy, execution, and iteration tightly connected from kickoff to scale.",
+    "steps": [
+      "Discover",
+      "Design",
+      "Build",
+      "Deploy",
+      "Optimize"
+    ]
+  },
+  "partners": {
+    "title": "Built with trusted technology partners.",
+    "items": [
+      "OpenAI",
+      "Make",
+      "Vercel",
+      "HubSpot",
+      "Stripe",
+      "Meta"
+    ]
+  },
+  "about": {
+    "headline": "We build the systems behind your next stage of growth.",
+    "body": "AI Invention is a multidisciplinary agency focused on helping companies modernize how they attract, convert, and serve customers. Our team combines strategy, design, engineering, automation, and growth execution so clients can move faster without sacrificing quality."
+  },
+  "team": [
+    {
+      "name": "Nadia Rahman",
+      "role": "Chief Executive Officer",
+      "bio": "Shapes client strategy, partnerships, and the long-range direction of the agency.",
+      "accent": "Vision"
+    },
+    {
+      "name": "Marcus Vale",
+      "role": "Head of AI Solutions",
+      "bio": "Leads applied AI architecture, process discovery, and intelligent tooling rollouts.",
+      "accent": "Systems"
+    },
+    {
+      "name": "Elena Brooks",
+      "role": "Creative Director",
+      "bio": "Guides the visual and messaging direction for websites, campaigns, and brand experiences.",
+      "accent": "Design"
+    },
+    {
+      "name": "Jonah Reed",
+      "role": "Automation Lead",
+      "bio": "Owns workflow mapping, integrations, and the operational backbone behind client delivery.",
+      "accent": "Ops"
+    }
+  ],
+  "contact": {
+    "headline": "Tell us what you want to build.",
+    "body": "Share your goals, timeline, and current challenges. We'll review the opportunity and get back to you with the next best step."
+  },
+  "footer": {
+    "brandBlurb": "AI Invention builds AI products, websites, automations, and demand systems for ambitious teams.",
+    "contactEmail": "hello@aiinvention.co",
+    "contactPhone": "+1 (555) 014-2890",
+    "newsletterBlurb": "Get product releases, AI workflow ideas, and launch notes from the team."
+  }
+}

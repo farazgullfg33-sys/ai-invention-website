@@ -1,0 +1,9 @@
+.next
+node_modules
+npm-debug.log
+*.zip
+.env
+dev-*.log
+*.out.log
+*.err.log
+tsconfig.tsbuildinfo

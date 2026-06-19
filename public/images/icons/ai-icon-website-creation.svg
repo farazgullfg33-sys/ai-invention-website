@@ -1,0 +1,15 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Website creation</title>
+  <desc id="desc">Minimal line icon showing a browser layout with build accents.</desc>
+  <rect x="18" y="24" width="92" height="76" rx="14" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 44H110" stroke="#0F172A" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="34" cy="34" r="3.5" fill="#0891B2"/>
+  <circle cx="48" cy="34" r="3.5" fill="#0D9488"/>
+  <path d="M36 62H62" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+  <path d="M36 78H52" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+  <rect x="72" y="58" width="20" height="20" rx="4" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M92 58L102 48" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+  <path d="M98 48H104V54" stroke="#0891B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M82 86V112" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+  <path d="M70 112H94" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+</svg>

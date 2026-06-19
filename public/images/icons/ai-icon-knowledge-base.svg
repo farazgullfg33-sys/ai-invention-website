@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Business documents knowledge base</title>
+  <desc id="desc">Minimal line icon showing stacked documents connected to a knowledge node.</desc>
+  <path d="M34 20H76L94 38V108H34V20Z" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M76 20V38H94" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 32H16V116H76V108" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M47 56H80" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+  <path d="M47 72H73" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+  <path d="M47 88H65" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="99" cy="82" r="12" stroke="#0D9488" stroke-width="4"/>
+  <path d="M87 82H76" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+  <path d="M99 70V60" stroke="#0891B2" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="99" cy="58" r="4" fill="#0891B2"/>
+</svg>

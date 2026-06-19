@@ -1,0 +1,206 @@
+{
+  "leads": [
+    {
+      "id": "website_YXVkaXRAZXhhbXBsZS",
+      "name": "Audit Lead",
+      "email": "audit@example.com",
+      "phone": "",
+      "service": "Website + AI Agent Bundle",
+      "businessType": "Audit Business",
+      "status": "New",
+      "source": "website-contact-form",
+      "createdAt": "2026-06-19T11:52:07.161Z",
+      "message": "Audit lead capture"
+    },
+    {
+      "id": "lead_sample_1",
+      "name": "Sample Lead",
+      "email": "client@example.com",
+      "phone": "",
+      "service": "Website + AI Agent Bundle",
+      "businessType": "Local service business",
+      "status": "New",
+      "source": "sample",
+      "createdAt": "2026-06-19T01:39:27.940Z",
+      "message": "Wants a site, WhatsApp CTA, and automated lead follow-up."
+    }
+  ],
+  "packages": [
+    {
+      "id": "package_website",
+      "name": "Website Only",
+      "setupFee": 200,
+      "monthlyFee": 100,
+      "currency": "USD",
+      "includes": "Landing page, SEO basics, hosting handoff",
+      "active": true
+    },
+    {
+      "id": "package_agent",
+      "name": "AI Agent Deployment",
+      "setupFee": 200,
+      "monthlyFee": 100,
+      "currency": "USD",
+      "includes": "VPS setup, agent deployment, monthly monitoring",
+      "active": true
+    },
+    {
+      "id": "package_bundle",
+      "name": "Website + AI Agent Bundle",
+      "setupFee": 350,
+      "monthlyFee": 150,
+      "currency": "USD",
+      "includes": "Website, chat/Telegram agent, maintenance cycle",
+      "active": true
+    }
+  ],
+  "quotations": [
+    {
+      "id": "quote_sample_1",
+      "quoteNumber": "Q-2026-0001",
+      "leadId": "lead_sample_1",
+      "customerName": "Sample Lead",
+      "packageName": "Website + AI Agent Bundle",
+      "amount": 350,
+      "currency": "USD",
+      "status": "Sent",
+      "createdAt": "2026-06-19T01:39:27.940Z",
+      "validUntil": "2026-07-03"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "invoice_sample_paid",
+      "invoiceNumber": "INV-2026-0018",
+      "customerName": "NovaStack AI",
+      "packageName": "Website + AI Agent Bundle",
+      "amount": 350,
+      "currency": "USD",
+      "status": "Paid",
+      "dueDate": "2026-06-15",
+      "issuedAt": "2026-06-07",
+      "paidAt": "2026-06-16"
+    },
+    {
+      "id": "invoice_sample_pending",
+      "invoiceNumber": "INV-2026-0019",
+      "customerName": "BrightPath Studio",
+      "packageName": "Website Only",
+      "amount": 200,
+      "currency": "USD",
+      "status": "Pending",
+      "dueDate": "2026-06-24",
+      "issuedAt": "2026-06-18",
+      "paidAt": ""
+    }
+  ],
+  "payments": [
+    {
+      "id": "payment_sample_1",
+      "invoiceId": "invoice_sample_paid",
+      "invoiceNumber": "INV-2026-0018",
+      "customerName": "NovaStack AI",
+      "amount": 350,
+      "currency": "USD",
+      "method": "Manual bank transfer",
+      "reference": "BANK-0018",
+      "status": "Confirmed",
+      "receivedAt": "2026-06-16",
+      "createdAt": "2026-06-19T01:39:27.940Z"
+    }
+  ],
+  "maintenancePlans": [
+    {
+      "id": "maintenance_novastack",
+      "customerName": "NovaStack AI",
+      "packageName": "Website + AI Agent Bundle",
+      "monthlyFee": 150,
+      "currency": "USD",
+      "status": "Active",
+      "nextDueDate": "2026-06-25",
+      "reminderDaysBefore": 5
+    },
+    {
+      "id": "maintenance_brightpath",
+      "customerName": "BrightPath Studio",
+      "packageName": "Website Only",
+      "monthlyFee": 100,
+      "currency": "USD",
+      "status": "Active",
+      "nextDueDate": "2026-07-01",
+      "reminderDaysBefore": 5
+    }
+  ],
+  "reminderLogs": [],
+  "customers": [
+    {
+      "id": "customer_novastack",
+      "name": "NovaStack AI",
+      "email": "ops@novastack.ai",
+      "phone": "",
+      "company": "NovaStack AI",
+      "packageName": "Website + AI Agent Bundle",
+      "status": "Active",
+      "project": "Deployment QA",
+      "maintenanceDue": "2026-06-25",
+      "createdAt": "2026-06-19T01:39:27.940Z",
+      "portalAccess": {
+        "status": "Enabled",
+        "passwordHash": "$2a$10$dWdPtqh2Pv6m0iBbFh1tZecBAywApQffODv70TX9kaoKg0b38yxxi",
+        "inviteToken": "demo-invite-token",
+        "inviteCreatedAt": "2026-06-19T01:39:27.940Z",
+        "lastLoginAt": "2026-06-19T15:22:41.719Z"
+      }
+    },
+    {
+      "id": "customer_brightpath",
+      "name": "BrightPath Studio",
+      "email": "hello@brightpath.studio",
+      "phone": "",
+      "company": "BrightPath Studio",
+      "packageName": "Website Only",
+      "status": "Onboarding",
+      "project": "Content collection",
+      "maintenanceDue": "2026-07-01",
+      "createdAt": "2026-06-19T01:39:27.940Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "project_novastack",
+      "customerName": "NovaStack AI",
+      "title": "AI agent deployment",
+      "packageName": "Website + AI Agent Bundle",
+      "status": "In progress",
+      "dueDate": "2026-06-29",
+      "tasks": [
+        "Confirm domain",
+        "Deploy VPS agent",
+        "QA lead capture",
+        "Client handoff"
+      ],
+      "createdAt": "2026-06-19T01:39:27.940Z"
+    },
+    {
+      "id": "project_brightpath",
+      "customerName": "BrightPath Studio",
+      "title": "Website launch",
+      "packageName": "Website Only",
+      "status": "Waiting client",
+      "dueDate": "2026-07-05",
+      "tasks": [
+        "Collect copy",
+        "Prepare homepage",
+        "Connect contact form"
+      ],
+      "createdAt": "2026-06-19T01:39:27.940Z"
+    }
+  ],
+  "supportTickets": [],
+  "settings": {
+    "adminName": "Admin",
+    "adminImageUrl": "",
+    "companyName": "AI Invention",
+    "invoiceNote": "Manual bank transfer payment. Admin marks invoice paid after confirmation."
+  }
+}

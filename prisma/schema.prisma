@@ -1,0 +1,158 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Lead {
+  id           String   @id @default(cuid())
+  name         String
+  email        String
+  phone        String?
+  company      String?
+  service      String?
+  businessType String?
+  message      String?
+  status       String   @default("new")
+  source       String   @default("website")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  quotations Quotation[]
+
+  @@index([email])
+  @@index([status])
+  @@index([source])
+}
+
+model Client {
+  id        String   @id @default(cuid())
+  name      String
+  email     String   @unique
+  company   String?
+  phone     String?
+  password  String
+  status    String   @default("active")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  projects         Project[]
+  invoices         Invoice[]
+  maintenancePlans MaintenancePlan[]
+
+  @@index([email])
+  @@index([status])
+}
+
+model Project {
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  status      String   @default("planned")
+  clientId    String
+  dueDate     DateTime?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  client Client @relation(fields: [clientId], references: [id], onDelete: Cascade)
+
+  @@index([clientId])
+  @@index([status])
+}
+
+model Invoice {
+  id        String    @id @default(cuid())
+  number    String    @unique
+  clientId  String
+  amount    Decimal   @db.Decimal(12, 2)
+  currency  String    @default("USD")
+  status    String    @default("pending")
+  dueDate   DateTime?
+  paidAt    DateTime?
+  items     Json
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  client   Client    @relation(fields: [clientId], references: [id], onDelete: Cascade)
+  payments Payment[]
+
+  @@index([clientId])
+  @@index([status])
+  @@index([dueDate])
+}
+
+model Quotation {
+  id        String   @id @default(cuid())
+  leadId    String
+  amount    Decimal  @db.Decimal(12, 2)
+  currency  String   @default("USD")
+  status    String   @default("draft")
+  items     Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  lead Lead @relation(fields: [leadId], references: [id], onDelete: Cascade)
+
+  @@index([leadId])
+  @@index([status])
+}
+
+model Payment {
+  id         String   @id @default(cuid())
+  invoiceId  String
+  amount     Decimal  @db.Decimal(12, 2)
+  currency   String   @default("USD")
+  reference  String?
+  receivedAt DateTime?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  invoice Invoice @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+
+  @@index([invoiceId])
+  @@index([receivedAt])
+}
+
+model MaintenancePlan {
+  id         String   @id @default(cuid())
+  customerId String
+  plan       String
+  dueDate    DateTime
+  status     String   @default("active")
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  client       Client        @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  reminderLogs ReminderLog[]
+
+  @@index([customerId])
+  @@index([dueDate])
+  @@index([status])
+}
+
+model ReminderLog {
+  id        String    @id @default(cuid())
+  planId    String
+  sentAt    DateTime?
+  status    String    @default("queued")
+  message   String?
+  createdAt DateTime  @default(now())
+
+  plan MaintenancePlan @relation(fields: [planId], references: [id], onDelete: Cascade)
+
+  @@index([planId])
+  @@index([status])
+}
+
+model AdminAction {
+  id        String   @id @default(cuid())
+  action    String
+  details   Json?
+  createdAt DateTime @default(now())
+
+  @@index([action])
+  @@index([createdAt])
+}

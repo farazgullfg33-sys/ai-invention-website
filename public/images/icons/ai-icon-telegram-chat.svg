@@ -1,0 +1,9 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Telegram chat access</title>
+  <desc id="desc">Minimal line icon showing chat access with a paper-plane symbol.</desc>
+  <path d="M24 34C24 24.1 32.1 16 42 16H86C95.9 16 104 24.1 104 34V72C104 81.9 95.9 90 86 90H58L38 108V90H42C32.1 90 24 81.9 24 72V34Z" stroke="#0F172A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44 54L86 36L74 78L62 62L44 54Z" stroke="#0891B2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M62 62L86 36" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+  <path d="M40 72H52" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="96" cy="23" r="5" fill="#0D9488"/>
+</svg>

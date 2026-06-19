@@ -1,0 +1,49 @@
+services:
+  web:
+    build: .
+    container_name: ai-invention-complete-platform
+    restart: unless-stopped
+    env_file:
+      - .env
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "3030:3000"
+    volumes:
+      - platform-data:/app/data
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.ai-invention-main.rule=Host(`aiinvention.tech`) || Host(`www.aiinvention.tech`)"
+      - "traefik.http.routers.ai-invention-main.entrypoints=websecure"
+      - "traefik.http.routers.ai-invention-main.tls.certresolver=letsencrypt"
+      - "traefik.http.services.ai-invention-main.loadbalancer.server.port=3000"
+      - "traefik.http.routers.ai-invention-admin.rule=Host(`admin.aiinvention.tech`) || Host(`customer.aiinvention.tech`)"
+      - "traefik.http.routers.ai-invention-admin.entrypoints=websecure"
+      - "traefik.http.routers.ai-invention-admin.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.ai-invention-admin.service=ai-invention-main"
+    healthcheck:
+      test: ["CMD-SHELL", "node -e \"fetch('http://127.0.0.1:3000/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))\""]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: ai-invention-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ai_invention_platform
+      POSTGRES_USER: ai_platform
+      POSTGRES_PASSWORD: change-me
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ai_platform -d ai_invention_platform"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  platform-data:
+  postgres-data:
