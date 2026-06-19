@@ -1,3 +1,5 @@
+import { headers } from "next/headers";
+import { redirect } from "next/navigation";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -178,7 +180,17 @@ const faqPreview = [
   },
 ];
 
-export default function HomePage() {
+export default async function HomePage() {
+  const headersList = await headers();
+  const host = headersList.get("host") || "";
+
+  if (host.startsWith("admin.")) {
+    redirect("/admin");
+  }
+  if (host.startsWith("customer.")) {
+    redirect("/client");
+  }
+
   return (
     <main>
       <section className="hero-section">
