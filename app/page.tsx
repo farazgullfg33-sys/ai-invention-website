@@ -10,6 +10,7 @@ import {
   CheckCircle2,
   ClipboardList,
   Clock3,
+  ExternalLink,
   FileText,
   MessageCircle,
   Server,
@@ -290,6 +291,40 @@ export default async function HomePage() {
                 <p>{text}</p>
               </article>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section" id="projects">
+        <div className="section-inner">
+          <div className="section-head">
+            <span className="eyebrow">Our Projects</span>
+            <h2>AI agent deployments running in production.</h2>
+          </div>
+          <div className="card-grid three">
+            <article className="use-card project-card">
+              <Building2 aria-hidden="true" size={28} />
+              <h3>AI-Powered PRO Office (UAE)</h3>
+              <p>
+                18 AI agents automating a full UAE PRO office — visa processing, company formation, licensing,
+                compliance, attestation, and client support.
+              </p>
+              <div className="project-card-actions">
+                <Link className="button-secondary" href="/uae-pro-office">
+                  View Project
+                  <ArrowRight aria-hidden="true" size={16} />
+                </Link>
+                <Link
+                  className="project-live-link"
+                  href="https://pro.aiinvention.tech"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Live Demo
+                  <ExternalLink aria-hidden="true" size={14} />
+                </Link>
+              </div>
+            </article>
           </div>
         </div>
       </section>

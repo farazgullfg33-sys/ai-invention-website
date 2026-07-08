@@ -17,6 +17,7 @@ const links = [
   { href: "/blog", label: "Blog" },
   { href: "/faq", label: "FAQ" },
   { href: "/about", label: "About" },
+  { href: "/uae-pro-office", label: "PRO Office UAE" },
 ];
 
 export function Header() {
